@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Java / Scala compiled outputs
+*.class
+*.tasty
+*.jar
+
+# Common build directories
+target/
+out/
+build/
+
+# Scala tooling
+.bloop/
+.metals/
+.scala-build/
+
+# IDE/editor local config
+.idea/
+.vscode/
+
+# Logs
+*.log
