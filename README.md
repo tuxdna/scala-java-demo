@@ -2,6 +2,8 @@
 
 This project contains two side-by-side examples that compare essential Java and Scala language features.
 
+![JVM Languages](./JVM_Languages.drawio.png)
+
 ## Files
 
 - `JavaLanguageShowcase.java`
