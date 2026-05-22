@@ -4,26 +4,28 @@ import scala.concurrent.Future
 import scala.concurrent.duration.DurationInt
 import scala.util.Try
 
-object ScalaLanguageShowcase extends App {
-  println("Scala Essentials: language feature showcase")
-  // 1) val/var and concise type inference.
-  variablesAndTypeInference()
-  // 2) Case classes for compact domain modeling.
-  caseClassAndCompanion()
-  // 3) Option-based null safety.
-  nullSafetyWithOption()
-  // 4) Functional collection transformations.
-  functionalCollections()
-  // 5) Exhaustive pattern matching.
-  patternMatching()
-  // 6) Async operations with Future.
-  asyncProgramming()
-  // 7) Error modeling without checked exceptions.
-  errorHandlingWithoutCheckedExceptions()
-  // 8) Immutable collections by default.
-  immutableCollectionsByDefault()
-  // 9) Trait-based composition and mixins.
-  traitsAndMixins()
+object ScalaLanguageShowcase {
+  def main(args: Array[String]): Unit = {
+    println("Scala Essentials: language feature showcase")
+    // 1) val/var and concise type inference.
+    variablesAndTypeInference()
+    // 2) Case classes for compact domain modeling.
+    caseClassAndCompanion()
+    // 3) Option-based null safety.
+    nullSafetyWithOption()
+    // 4) Functional collection transformations.
+    functionalCollections()
+    // 5) Exhaustive pattern matching.
+    patternMatching()
+    // 6) Async operations with Future.
+    asyncProgramming()
+    // 7) Error modeling without checked exceptions.
+    errorHandlingWithoutCheckedExceptions()
+    // 8) Immutable collections by default.
+    immutableCollectionsByDefault()
+    // 9) Trait-based composition and mixins.
+    traitsAndMixins()
+  }
 
   private def variablesAndTypeInference(): Unit = {
     // val is immutable and preferred for most code.
