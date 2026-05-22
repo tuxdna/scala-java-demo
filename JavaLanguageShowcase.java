@@ -150,3 +150,15 @@ class InvalidValueException extends Exception {
         super(message);
     }
 }
+
+
+/*
+
+In python we have dataclass
+
+@dataclass
+class User:
+    name: str
+    age: int
+
+*/
